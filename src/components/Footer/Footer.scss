@@ -1,0 +1,143 @@
+.footer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 1072px;
+	margin: 100px 90px;
+
+	ul {
+		list-style: none;
+	}
+	li {
+		cursor: pointer;
+		&:hover {
+			color: #9597a0;
+		}
+	}
+	.efood {
+		margin-right: 55px;
+		li {
+			padding-bottom: 10px;
+		}
+		.item__1 {
+			font-weight: 500;
+			font-size: 27px;
+			line-height: 32px;
+			letter-spacing: 0.5px;
+			padding-top: 21px;
+
+			span {
+				color: #ff7a50;
+			}
+		}
+		.item__2 {
+			display: flex;
+			align-items: center;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 16px;
+			line-height: 32px;
+			color: #37383d;
+			img {
+				margin-right: 10px;
+			}
+		}
+		.item__3 {
+			display: flex;
+			align-items: center;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 16px;
+			line-height: 32px;
+			color: #37383d;
+			img {
+				margin-right: 10px;
+			}
+		}
+		.item__4 {
+			display: flex;
+			align-items: center;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 16px;
+			line-height: 32px;
+			color: #37383d;
+			img {
+				margin-right: 10px;
+			}
+		}
+		.item__5 {
+			cursor: pointer;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			margin-top: 5px;
+
+			img {
+				transition: transform 0.2 ease-in-out;
+				&:hover {
+					transform: scale(1.09);
+				}
+				&:active {
+					transform: scale(0.9);
+				}
+			}
+		}
+	}
+	.servise {
+		width: 190px;
+		margin-right: 20px;
+		li {
+			font-style: normal;
+			font-weight: 500;
+			font-size: 18px;
+			letter-spacing: 2px;
+			color: #37383d;
+			padding: 10px;
+			&:hover {
+				color: #9597a0;
+			}
+		}
+	}
+	.company {
+		margin-right: 20px;
+		li {
+			font-style: normal;
+			font-weight: 500;
+			font-size: 18px;
+			letter-spacing: 2px;
+			color: #37383d;
+			padding: 10px;
+			&:hover {
+				color: #9597a0;
+			}
+		}
+	}
+	.supports {
+		margin-right: 20px;
+		li {
+			font-style: normal;
+			font-weight: 500;
+			font-size: 18px;
+			letter-spacing: 2px;
+			color: #37383d;
+			padding: 10px;
+			&:hover {
+				color: #9597a0;
+			}
+		}
+	}
+	.resources {
+		li {
+			font-style: normal;
+			font-weight: 500;
+			font-size: 18px;
+			letter-spacing: 2px;
+			color: #37383d;
+			padding: 10px;
+			&:hover {
+				color: #9597a0;
+			}
+		}
+	}
+}

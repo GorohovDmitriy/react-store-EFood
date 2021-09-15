@@ -1,0 +1,49 @@
+.mobile {
+	width: 1000px;
+	display: flex;
+	align-items: center;
+	margin-left: 85px;
+	margin-bottom: 10px;
+
+	.download {
+		h1 {
+			width: 450px;
+			font-style: normal;
+			font-weight: 500;
+			font-size: 36px;
+			line-height: 50px;
+			text-transform: capitalize;
+			color: #363853;
+			padding-bottom: 30px;
+
+			span {
+				color: #ff7a50;
+			}
+		}
+		p {
+			width: 500px;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 20px;
+			line-height: 30px;
+			color: #363853;
+			padding-bottom: 30px;
+			opacity: 0.9;
+		}
+		img {
+			cursor: pointer;
+			margin-right: 30px;
+			&:hover {
+				opacity: 0.9;
+			}
+			&:active {
+				opacity: 1;
+			}
+		}
+	}
+	.iphone {
+		img {
+			width: 550px;
+		}
+	}
+}
